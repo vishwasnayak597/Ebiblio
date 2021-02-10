@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 
-/config
+/config/fbServiceAccountKey.json
 
 /.pnp
 .pnp.js
