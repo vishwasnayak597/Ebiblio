@@ -25,5 +25,3 @@ router.put("/product/star/:productId",authCheck,productStar) //no admincheck sin
 router.get("/product/related/:productId",listRelated); //related product
 router.post("/search/filters",searchFilters) //for search ,post coz one endpoint for many search,filter criteria 
 module.exports=router;
-
-
